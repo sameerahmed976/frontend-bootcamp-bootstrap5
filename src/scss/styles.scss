@@ -1,0 +1,21 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+.logo {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (min-width: 576px) {
+  .input-groups {
+    width: 50%;
+  }
+}
+
+.image {
+  height: 15rem;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+}
